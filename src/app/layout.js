@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className={inter.className} className=" bg-slate-700">
+        <body className={inter.className}>
           <header className="m-1 rounded flex-auto bg-slate-200">
             <h1 className="text-2xl font-bold">💬 Talkify</h1>
             <div className="flex justify-end space-x-4">
